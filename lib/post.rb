@@ -12,10 +12,6 @@ class Post
         @@all
     end
 
-    def author
-        @author
-    end
-
     def author_name
         if @author == nil
             return nil
